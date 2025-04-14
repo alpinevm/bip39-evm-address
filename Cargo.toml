@@ -5,3 +5,13 @@ edition = "2024"
 
 [dependencies]
 cust = "0.3.2"
+bip0039 = "0.11.0"
+clap = {version = "4.3.24", features = ["derive"]}
+hex = "0.4.3"
+libsecp256k1 = "0.3.5"
+num_cpus = "1.13.1"
+regex = "1.9.3"
+tiny-hderive = "0.3.0"
+hmac = "0.7.0"
+sha2 = "0.8.0"
+tiny-keccak = {version = "2.0.2", features = ['keccak']}
